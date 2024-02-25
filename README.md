@@ -91,6 +91,6 @@
             else:
                 print("Pilihan tidak valid.")
 
-if __name__ == "__main__":
-    toko = Databuku()
-    toko.main_menu()
+    if __name__ == "__main__":
+        toko = Databuku()
+        toko.main_menu()
