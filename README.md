@@ -1,20 +1,20 @@
-from prettytable import PrettyTable
-
-class TokoBuku:
-    def __init__(self, nama, id, kategori, tahun, penulis, penerbit):
-        self.nama = nama
-        self.id = id
-        self.kategori = kategori
-        self.tahun = tahun
-        self.penulis = penulis
-        self.penerbit = penerbit
+    from prettytable import PrettyTable
+    
+    class TokoBuku:
+        def __init__(self, nama, id, kategori, tahun, penulis, penerbit):
+            self.nama = nama
+            self.id = id
+            self.kategori = kategori
+            self.tahun = tahun
+            self.penulis = penulis
+            self.penerbit = penerbit
 
     def __str__(self):
         return f"{self.nama},{self.id},{self.kategori},{self.tahun},{self.penulis},{self.penerbit}"
-    
-class Databuku:
-    def __init__(self):
-        self.data_buku = []
+        
+    class Databuku:
+        def __init__(self):
+            self.data_buku = []
 
     def create(self):
         print("Masukkan data buku yang diinginkan")
