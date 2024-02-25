@@ -11,7 +11,7 @@ class TokoBuku:
 
     def __str__(self):
         return f"{self.nama},{self.id},{self.kategori},{self.tahun},{self.penulis},{self.penerbit}"
-
+    
 class Databuku:
     def __init__(self):
         self.data_buku = []
